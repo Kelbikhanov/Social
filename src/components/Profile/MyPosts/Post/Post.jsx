@@ -6,8 +6,8 @@ const Post = (props) => {
     return (
 
         <div className={s.item}>
-          <img src='https://mors-kemerovo.sibnet.ru/upload/imganonsbig/1421312106.jpg' />
-          { props.message }
+            <img src='https://mors-kemerovo.sibnet.ru/upload/imganonsbig/1421312106.jpg' />
+          { props.state.message }
           <div>
           <span>Like</span>
           </div>
