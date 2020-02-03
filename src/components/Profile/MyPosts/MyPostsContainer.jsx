@@ -9,13 +9,14 @@ const mapStateToProps = (state) => {
         newPostText: state.profilePage.newPostText
     }
 }
+
 const mapDispatchToProps = (dispatch) => {
     return {
         updateNewPostText: (text) => {
             let action = updateNewPostTextActionCreator(text);
             dispatch(action);
         },
-        addPost: () =>{
+        addPost: () => {
             dispatch(addPostActionCreator());
         }
     }
