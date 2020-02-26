@@ -4,6 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import SamuraiJSApp from "./App";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<SamuraiJSApp/>, document.getElementById('root'));
 

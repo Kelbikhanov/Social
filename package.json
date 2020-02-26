@@ -2,9 +2,10 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://it-kamasutra.github.io/react-way-of-samurai",
+  "homepage": " https://kelbikhanov.github.io/Social",
   "dependencies": {
     "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
