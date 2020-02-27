@@ -1,17 +1,45 @@
+.logo {
+}
+.logout {
+
+    padding-top: 16px;
+    padding-right: 30px;
+}
+.p_login {
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #888fa8;
+}
+.flex_logout {
+    display: flex;
+}
+
 .header {
-    grid-area: h;
-    background-color: green;
+border-radius: 5px;
+grid-area: h;
+background-color: #1b2740;
 }
 
 .header img {
-    width: 20px;
+    padding-top: 16px;
+    padding-left: 20px;
+    width: 63px;
 }
 
 .loginBlock {
-    float: right;
+float: right;
 
 }
 .loginBlock a {
-    color: white;
+color: white;
+}
+.p_log {
+    color: #888fa8;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-top: 16px;
+}
+.p_log:hover {
+color: white;
 }
 

@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="962acb59-2c7a-4e64-9003-d492e3abcb34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
         <item itemvalue="Node.js.App.js" />
       </list>
@@ -296,6 +308,8 @@
       <workItem from="1582686509878" duration="1589000" />
       <workItem from="1582688403398" duration="458000" />
       <workItem from="1582689007379" duration="2057000" />
+      <workItem from="1582691092068" duration="281000" />
+      <workItem from="1582747941101" duration="12791000" />
     </task>
     <servers />
   </component>
@@ -316,37 +330,37 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582689661220">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582749091156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582689661220" />
-    <state width="1493" height="635" key="GridCell.Tab.0.bottom" timestamp="1582691258438">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582749091156" />
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom" timestamp="1582764395083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="635" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582691258438" />
-    <state width="1493" height="635" key="GridCell.Tab.0.center" timestamp="1582691258438">
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582764395083" />
+    <state width="1493" height="148" key="GridCell.Tab.0.center" timestamp="1582764395083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="635" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582691258438" />
-    <state width="1493" height="635" key="GridCell.Tab.0.left" timestamp="1582691258437">
+    <state width="1493" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582764395083" />
+    <state width="1493" height="148" key="GridCell.Tab.0.left" timestamp="1582764395083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="635" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582691258437" />
-    <state width="1493" height="635" key="GridCell.Tab.0.right" timestamp="1582691258438">
+    <state width="1493" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582764395083" />
+    <state width="1493" height="148" key="GridCell.Tab.0.right" timestamp="1582764395083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="635" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582691258438" />
+    <state width="1493" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582764395083" />
     <state x="622" y="124" key="RollbackChangesDialog" timestamp="1580987582728">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580987582728" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582691095293">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582747968136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582691095293" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580654795530">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582747968136" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582765019329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580654795530" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582765019329" />
   </component>
 </project>
