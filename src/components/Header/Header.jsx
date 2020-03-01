@@ -5,16 +5,20 @@ import Logo from "../../assets/images/logo.png";
 
 const Header = (props) => {
     return <header className={s.header}>
-            <img src={Logo}/>
+
+        <a href={"/Profile"}><img src={Logo}/></a>
+
         <div className={s.loginBlock}>
-            {props.isAuth
+            { props.isAuth
                 ? <div className={s.flex_logout}>
-                    <p className={s.p_login}>{props.login}</p>
-                    <div className={s.logout}>
-                        <button onClick={props.logout} className="btn btn-primary">Log out</button>
+                    <div >
+                        <p className={s.p_logout}>{props.login}</p>
                     </div>
-            </div>
-                : <NavLink to={'/login'}><p className={s.p_log}>Login</p></NavLink>}
+                   <div className={s.header_logout}>
+                       <button className="btn btn-primary" onClick={props.logout}>Log out</button>
+                   </div>
+                  </div>
+                :  <NavLink to={'/login'}><p className={s.log}>Login</p></NavLink> }
         </div>
     </header>
 }

@@ -1,45 +1,37 @@
-.logo {
+.header {
+    border-radius: 5px;
+    grid-area: h;
+    background-color:#1b2740;
 }
-.logout {
 
-    padding-top: 16px;
-    padding-right: 30px;
+.header img {
+    padding-top: 7px;
+    padding-left: 50px;
+    width: 115px;
 }
-.p_login {
-    padding-top: 20px;
-    padding-right: 10px;
-    color: #888fa8;
+
+.loginBlock {
+    float: right;
+
+}
+.loginBlock a {
+    color: white;
 }
 .flex_logout {
     display: flex;
 }
-
-.header {
-border-radius: 5px;
-grid-area: h;
-background-color: #1b2740;
+.p_logout {
+    padding-top: 22px;
+    padding-right: 13px;
+    color: #888fa8;
 }
-
-.header img {
+.header_logout {
     padding-top: 16px;
-    padding-left: 20px;
-    width: 63px;
+    padding-right: 30px;
 }
-
-.loginBlock {
-float: right;
-
-}
-.loginBlock a {
-color: white;
-}
-.p_log {
+.log {
     color: #888fa8;
     font-size: 20px;
     padding-right: 30px;
     padding-top: 16px;
 }
-.p_log:hover {
-color: white;
-}
-

@@ -1,6 +1,9 @@
+.block_navbar {
+    padding-top: 10px
+}
 .nav {
     border-radius: 5px;
-    background-color: #7ca4ef;
+    background-color: #1b2740;
     padding: 20px;
 }
 .item {
@@ -9,14 +12,12 @@
     padding-left: 30px;
     padding-top: 15px;
 }
-.item:hover {
-    color: #494f54;
-}
+
 .item a {
     color: white;
-
+    text-decoration: none;
 }
 
 .item a.activeLink {
-    color:white;
+    color: gold;
 }

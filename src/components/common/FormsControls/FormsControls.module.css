@@ -15,8 +15,93 @@
     color: red;
 }
 
-form {
-width: 250px;
+
+
+
+
+
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
 }
-.form-control {
+
+.login_header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login_triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #1b2740;
+}
+
+.login_header {
+    border-radius: 5px;
+    background: #1b2740;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form {
+    background: #fff;
+    padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+    padding: 12px;
+}
+
+.login input {
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+    border-color: #888;
+}
+
+.btn_login {
+    border-radius: 5px;
+    width: 100%;
+    border-width: 1px;
+    padding: 16px;
+    background: #1b2740;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.btn_login:hover {
+
+    background: #3b455b;
+}
+.form_login p {
+    text-align: center;
 }

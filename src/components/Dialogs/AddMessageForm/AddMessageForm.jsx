@@ -14,13 +14,13 @@ const AddMessageForm = (props) => {
                        placeholder='Enter your message' name="newMessageBody" />
             </div>
             <div>
-                <button className={"btn btn-outline-primary btn-lg"}>Send222</button>
+                <button>Send222</button>
             </div>
         </form>
     )
 }
 
-export default reduxForm({form: 'dialog-add-message-form '})(AddMessageForm);
+export default reduxForm({form: 'dialog-add-message-form'})(AddMessageForm);
 
 
 

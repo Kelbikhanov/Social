@@ -1,6 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .userPhoto {
-     width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+.follow {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 55px;
+    padding-right: 54px;
+    border-radius: 5px;
+    background: #1b2740;
+    border-color: transparent;
+    color: #fff;
+}
+.follow:hover {
+    background:  #3b455b;
+}
+.unfollow {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 49px;
+    padding-right: 49px;
+    border-radius: 5px;
+    background: #f0ad4e;
+    border-color: transparent;
+    color: #fff;
+}
+.unfollow:hover {
+    background:#eebf7b ;
+}
+.user {
+
+    padding-top: 50px;
+}
+.flex_user {
+    display: flex;
 }
 
+.user hr {
+    margin: 0;
+    background: #1b2740;
+    max-width: 40em;
+}
+.hr_div {
+    padding-top: 10px;
+}
+.users {
+    margin: 0 25% 0 25%;
+    width: 50%;
+}
+.people {
+    padding-top: 70px;
+}
+.flex2 {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.name {
+    color: #1b2740;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+}
+.status {
+    color: #1b2740;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+}
+.location {
+    color: #1b2740;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+}
 

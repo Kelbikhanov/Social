@@ -14,7 +14,7 @@ let AddNewPostForm = (props) => {
                    validate={[required, maxLength10]} />
         </div>
         <div>
-            <button className="btn btn-outline-primary btn-lg">Add post</button>
+            <button>Add post</button>
         </div>
     </form>;
 }
@@ -25,7 +25,7 @@ const MyPosts = React.memo(props => {
     let postsElements =
         [...props.posts]
             .reverse()
-            .map(p => <Post message={p.message} likesCount={p.likesCount}/>);
+            .map(p => <Post key={p.id} message={p.message} likesCount={p.likesCount}/>);
 
     let newPostElement = React.createRef();
 
